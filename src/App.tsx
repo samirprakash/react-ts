@@ -4,7 +4,7 @@ import Greet from './components/greet/greet.component';
 function App() {
   return (
     <div className="App">
-      <Greet />
+      <Greet name="stranger!" />
     </div>
   );
 }
