@@ -10,7 +10,7 @@ const Persons = (props: PersonsProps) => {
     <div>
       {props.names.map((name) => {
         return (
-          <h5>
+          <h5 key={name.first}>
             {name.first} {name.last}
           </h5>
         );
