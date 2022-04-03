@@ -1,9 +1,9 @@
-import Greet from '../../components/greet/greet.component';
-import Heading from '../../components/heading/heading.component';
-import Oscar from '../../components/oscar/oscar.component';
-import Person from '../../components/person/person.component';
-import Persons from '../../components/person/persons.component';
-import Status from '../../components/status/status.component';
+import Greet from '../../components/basic-props/greet/greet.component';
+import Heading from '../../components/basic-props/heading/heading.component';
+import Oscar from '../../components/basic-props/oscar/oscar.component';
+import Person from '../../components/basic-props/person/person.component';
+import Persons from '../../components/basic-props/person/persons.component';
+import Status from '../../components/basic-props/status/status.component';
 
 const personName = {
   first: 'Bruce',
