@@ -1,6 +1,6 @@
 type GreetProps = {
   name: string;
-  msgcount: number;
+  msgcount?: number;
   isLoggedin: boolean;
 };
 
