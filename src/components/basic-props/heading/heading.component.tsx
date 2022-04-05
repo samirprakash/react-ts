@@ -2,8 +2,8 @@ type HeadingProps = {
   children: string;
 };
 
-const Heading = (props: HeadingProps) => {
-  return <h2>{props.children}</h2>;
+const Heading = ({ children }: HeadingProps) => {
+  return <h2>{children}</h2>;
 };
 
 export default Heading;

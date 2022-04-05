@@ -2,13 +2,13 @@ type StatusProps = {
   status: 'loading' | 'error' | 'success';
 };
 
-const Status = (props: StatusProps) => {
+const Status = ({ status }: StatusProps) => {
   let msg;
-  if (props.status === 'loading') {
+  if (status === 'loading') {
     msg = 'Loading ...';
-  } else if (props.status === 'error') {
+  } else if (status === 'error') {
     msg = 'Error fetching data!';
-  } else if (props.status === 'success') {
+  } else if (status === 'success') {
     msg = 'Data fetched successfully!';
   }
 

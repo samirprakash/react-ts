@@ -5,10 +5,10 @@ type PersonProps = {
   };
 };
 
-const Person = (props: PersonProps) => {
+const Person = ({ name }: PersonProps) => {
   return (
     <div>
-      {props.name.first} {props.name.last}
+      {name.first} {name.last}
     </div>
   );
 };

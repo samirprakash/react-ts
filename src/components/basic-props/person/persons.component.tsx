@@ -5,10 +5,10 @@ type PersonsProps = {
   }[];
 };
 
-const Persons = (props: PersonsProps) => {
+const Persons = ({ names }: PersonsProps) => {
   return (
     <div>
-      {props.names.map((name) => {
+      {names.map((name) => {
         return (
           <h5 key={name.first}>
             {name.first} {name.last}
