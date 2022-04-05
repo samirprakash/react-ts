@@ -1,6 +1,4 @@
-type StatusProps = {
-  status: 'loading' | 'error' | 'success';
-};
+import { StatusProps } from './status.types';
 
 const Status = ({ status }: StatusProps) => {
   let msg;

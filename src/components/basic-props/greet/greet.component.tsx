@@ -1,8 +1,4 @@
-type GreetProps = {
-  name: string;
-  msgcount?: number;
-  isLoggedin: boolean;
-};
+import { GreetProps } from './greet.types';
 
 const Greet = ({ name, msgcount, isLoggedin }: GreetProps) => {
   return (

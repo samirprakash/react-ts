@@ -1,9 +1,4 @@
-type PersonsProps = {
-  names: {
-    first: string;
-    last: string;
-  }[];
-};
+import { PersonsProps } from './person.types';
 
 const Persons = ({ names }: PersonsProps) => {
   return (
