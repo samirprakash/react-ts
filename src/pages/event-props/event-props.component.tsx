@@ -1,5 +1,5 @@
-import Button from '../../components/button/button.component';
-import Input from '../../components/input/input.component';
+import Button from '../../components/event-props/button/button.component';
+import Input from '../../components/event-props/input/input.component';
 
 const EventProps = () => {
   const handleClick = (
