@@ -1,6 +1,6 @@
 import './App.css';
-import User from './components/context/user.component';
-import { UserContextProvider } from './components/context/user.context';
+import User from './components/context/user/user.component';
+import { UserContextProvider } from './components/context/user/user.context';
 
 function App() {
   return (
